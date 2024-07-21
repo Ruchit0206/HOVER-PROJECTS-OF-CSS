@@ -1,0 +1,40 @@
+*{
+    margin:0px;
+    padding:0px;
+    border:border-box;
+}
+
+div{
+    position:absolute;
+    left:300px;
+    top:150px;
+    height: 500px;
+    width:900px;
+    border:5px solid rgb(69, 241, 7);
+    background-image: url(https://hdqwalls.com/wallpapers/abstract-circle-pic.jpg);
+    background-size:cover;
+}
+.hello{
+    background-color:rgb(5, 244, 29);
+    height:100px;
+    width:150px;
+    border-radius:50%;
+    border:2px dotted rgb(115, 5, 250);
+    position: absolute;
+    left:370px;
+    top:215px;
+
+}
+
+
+.hello1{
+    font-size:30px;
+}
+
+a{
+    color:white;
+    position: absolute;
+    left:10px;
+    top:25px;
+
+}

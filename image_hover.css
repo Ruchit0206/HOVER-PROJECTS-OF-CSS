@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+.maindiv{
+    /* background-color: aqua; */
+    background-image: url(https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-1-full.jpg);
+    background-size: cover;
+    height:600px;
+    border: 2px solid greenyellow;
+    width:1000px;
+    display: flex;
+
+    border-radius: 10%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-left: 200px;
+}
+body h1{
+    text-align: center;
+}
+
+.first{
+    background-image: url(https://www.bing.com/ck/a?!&&p=d6d93e6a59f9e610JmltdHM9MTcwOTQyNDAwMCZpZ3VpZD0zYWE4M2VjZS0xYjIzLTYzZDYtMDczOS0yZTBkMWFiODYyNzUmaW5zaWQ9NTYzMg&ptn=3&ver=2&hsh=3&fclid=3aa83ece-1b23-63d6-0739-2e0d1ab86275&u=a1L2ltYWdlcy9zZWFyY2g_cT1iYWNrZ3JvdW5kIGltYWdlcyBwb3RyYWl0JkZPUk09SVFGUkJBJmlkPUIwQTg5RDNCQ0IwRDY4RkI4NEI4RTFCOTc3MzE2NjJFNjIzNDg3RDI&ntb=1);
+}
+.second{
+    background-image: url(https://th.bing.com/th?id=OIP.JQtNsWa0-kgjNUATS9fy1gHaNK&w=187&h=333&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2);
+}
+.third{
+    background-image: url(https://www.bing.com/images/search?view=detailV2&ccid=dNsmGdbj&id=65289556E74D3CEE718F681C1472BBECC94192BB&thid=OIP.dNsmGdbjoxJWl6hoN7JkCgHaL2&mediaurl=https%3a%2f%2fwallpapercave.com%2fwp%2fwp4721491.jpg&exph=1920&expw=1200&q=background+images+potrait&simid=608054751453593181&FORM=IRPRST&ck=34E9BF087A210D447B3FDC5B9896F772&selectedIndex=13&itb=0);
+}
+.fourth{
+    background-image: url(https://th.bing.com/th/id/OIP.x1IpRs_6NN-7YgstsZzynwHaN1?w=182&h=341&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+}
+
+.innerdiv{
+    background-color: rgb(6, 6, 6);
+    
+    /* height:500px; */
+    width:1600px;
+    border:2px solid greenyellow;
+    border-radius: 20%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding:20px;
+    margin:30px;
+    column-gap:10px;
+}
+
+.innerdiv img:hover{
+    width:500px; 
+     height:400px;
+    /* scale:1.1; */
+}
+
+.innerdiv img{
+    border:2px solid white;
+    height:200px;
+    width:100px;
+    background-size: cover;
+    border-radius:20px;
+    cursor:pointer;
+    transition:all ease 0.5s;
+}
+
+footer{
+    text-align: center;
+    margin-top: 10px;
+}

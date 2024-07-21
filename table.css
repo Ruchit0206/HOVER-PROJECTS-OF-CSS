@@ -1,0 +1,56 @@
+.FIRST{
+    height: 200PX;
+    background-color: aqua;
+    WIDTH:500PX;
+}
+.firsttext{
+    text-align: center;
+    background:greenyellow;
+}
+.RUCHIT-PROFILE{
+    background-image: URL(https://th.bing.com/th/id/OIP.j8yd8dJ5215WbgQ0NsLzuAHaNK?rs=1&pid=ImgDetMain);
+    
+    background-size: cover;
+}
+
+.SECOND{
+
+    height: 200PX;
+    background-color: rgb(221, 255, 0);
+    WIDTH:500PX;
+}
+
+.SETU-PROFILE{
+    background-image: URL(https://th.bing.com/th/id/OIP.j8yd8dJ5215WbgQ0NsLzuAHaNK?rs=1&pid=ImgDetMain);
+    
+    background-size: cover;
+}
+
+
+table{
+height:715px;
+width:772px;
+TEXT-ALIGN:CENTER;
+BORDER-COLLAPSE:COLLAPSE;
+FONT-SIZE:30PX;
+margin-left:300px;
+}
+table:hover{
+    background-color: crimson;
+    border:3px double orange;
+    font-size:40px;
+    transition:1s ease-in-out 0.3s;
+}
+
+.HEADER-PART{
+    height: 50PX;
+    WIDTH:10PX;
+}
+
+.HEADER-PART:hover{
+    font-size:40px;
+}
+
+TABLE TR,TD,TH{
+    BORDER:2PX SOLID BLACK;
+}

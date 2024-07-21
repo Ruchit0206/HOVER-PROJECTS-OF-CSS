@@ -1,0 +1,88 @@
+
+*{
+    font-size: 16px;
+    margin:0px;
+    border:border-box;
+}
+
+body{
+    /* background-color: aqua; */
+    background-image:url(https://freevector-images.s3.amazonaws.com/uploads/vector/preview/40490/vecteezy_background-white_fj1220.jpg);
+    background-size: cover;
+    
+    /* display:flex; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+
+#main-header{
+    text-align: center;
+}
+.hello{
+    /* background-color: blue; */
+    /* display:flex; */
+    /* align-content: flex-end; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    font-size: 14px;
+    height:100px;
+    background-color:rgb(86, 157, 219);
+    width:700px;
+    position:absolute;
+    left:450px;
+    TOP:60PX;
+    text-align:center;
+}
+
+
+h1{
+    color:blue;
+}
+.secondary{
+    color:rgb(96, 151, 13);
+    
+}
+
+.small-text{
+    color:darkslateblue;
+}
+
+#main-div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:160px;
+    left:450px;
+align-content: center;
+}
+
+#price{
+    background-color:rgb(230, 10, 94);
+    text-align:center;
+    
+    height: 500px;
+    width:350px;
+}
+
+.anchor-tag{
+    display:flex;
+     text-align:center;
+                align-content:center;
+                justify-content:center;
+                height:50px;
+                width:100px;
+                border:2px solid transparent;
+                border-radius:15%;
+                background-color:rgb(209, 21, 200);
+    }
+
+
+.why-us{
+    background-color:rgb(10, 228, 181);
+    height:500px;
+    width:350px;
+    /* display: flex; */
+TEXT-ALIGN:CENTER;
+}

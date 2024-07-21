@@ -1,0 +1,102 @@
+/* .hello{
+  background-color: rgb(57, 47, 57);
+  background-image: url(https://www.pngmart.com/files/13/Square-Transparent-Images-PNG.png);
+  background-size:cover;
+  height:800px;
+  width:900px;
+  position: absolute;
+  left:300px;
+
+} */
+.HELLO1{
+  color:white;
+ display: flex;
+ justify-content: center;
+  background-color:black;
+ font-size:40PX;
+}
+.maindiv{
+  height:500px;
+  width:720px;
+  background-color: aqua;
+  display:flex;
+  align-items: flex-start;
+  /* justify-content: center; */
+  position: relative;
+  /* top:200px; */
+  /* left:90px; */
+  margin-left:350px;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  border:6px solid greenyellow;
+}
+
+.hide {
+    display: none;
+}
+
+  .myDIV:hover + .hide{
+    display:block;
+    color: red; /* You can customize the box appearance */
+    height:200px;
+    width:200px;
+    background-color: aqua;
+  text-align:center;
+  font-size: larger;
+    border-radius: 50%;
+  position:absolute;
+   left:0px;
+   top:90px;
+   animation:bottomanimation 9s linear infinite normal;
+
+}
+
+
+@keyframes bottomanimation{
+  0%{
+    left:0px;
+    TOP:45PX;
+    background-image: url(https://t3.ftcdn.net/jpg/05/73/95/90/360_F_573959050_BXeecXwfgIlMFGdOfHRiSdedBealWU5Q.jpg);
+    background-size: cover;
+  }
+  20%{
+    left:100px;
+    TOP:300PX;
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/07/Small-Waterfall-HD-Wallpaper-1080P-hd-1920x1080.jpg);
+    background-size: cover;
+  }
+  40%{
+    left:200px;
+    TOP:50PX;
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/07/Small-Waterfall-HD-Wallpaper-1080P-hd-1920x1080.jpg);
+    background-size: cover;
+  }
+  60%{
+    left:300px;
+    TOP:300PX;
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/07/Small-Waterfall-HD-Wallpaper-1080P-hd-1920x1080.jpg);
+    background-size: cover;
+  }
+  80%{
+    left:400px;
+    TOP:50PX;
+    background-image: url(https://th.bing.com/th/id/R.7def419429cddf4e85f80572068eec41?rik=l9sjZFBECOnsKQ&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fCool-PC-Wallpapers.jpg&ehk=0d2akvlVfd%2b2hsn2UG9wEhUd6p6hsijQCfyF5AOeQrs%3d&risl=&pid=ImgRaw&r=0);
+    backfround-size:cover;
+  }
+  100%{
+    left:500px;
+    TOP:300PX;
+    background-image: url(https://wallpaperaccess.com/full/17816.jpg);
+    background-size: cover;
+  }
+}
+
+
+  
+    
+footer{
+  text-align: center;
+  margin-top: 10px;
+  background:yellow;
+  font-size: 25px;
+}
